@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>合成大尼莫</title>
+  <title>合成大八八</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -121,19 +121,19 @@
 //        console.log("window.navigator.language",window.navigator.language);
 
         if( window.navigator.language=="zh-CN" ||window.navigator.language=="zh-cn"){
-            document.title = "小游戏：合成大尼莫";
+            document.title = "小游戏：合成大八八";
         }else  if(window.navigator.language == "zh-TW" ){
-            document.title = "小遊戲：合成大尼莫";
+            document.title = "小遊戲：合成大八八";
         }else  if(window.navigator.language == "zh-HK" ){
-            document.title = "小遊戲：合成大尼莫";
+            document.title = "小遊戲：合成大八八";
         }else  if(window.navigator.language == "ko-KR"){
-            document.title = "작은 놀이：合成大尼莫";
+            document.title = "작은 놀이：合成大八八";
         }else  if(window.navigator.language == "ja-JP"){
-            document.title = "ミニゲーム：合成大尼莫";
+            document.title = "ミニゲーム：合成大八八";
         }else  if(window.navigator.language == "th-TH"){
-            document.title = "เกมเล็กๆ：合成大尼莫";
+            document.title = "เกมเล็กๆ：合成大八八";
         }else{
-            document.title = "Little game：合成大尼莫";
+            document.title = "Little game：合成大八八";
         }
 
 
@@ -173,7 +173,7 @@
         if (!loadintT) {
         	return;
         }
-        loadintT.innerHTML = '捉尼莫中......' + parseInt(tempSeconds) + '%';
+        loadintT.innerHTML = '捉八八中......' + parseInt(tempSeconds) + '%';
 
         switch (tempSeconds) {
           case 20:
@@ -206,7 +206,7 @@
         if (tempSeconds > 100) {
           clearInterval(timer);
           tempSeconds = 100
-          loadintT.innerHTML = '捉尼莫中......' + parseInt(tempSeconds) + '%';
+          loadintT.innerHTML = '捉八八中......' + parseInt(tempSeconds) + '%';
         }
       }, t * 1000);
     }
